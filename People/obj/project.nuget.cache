@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VH6j1N7VzKPd6CvV0bqZX1rr+YFX0GZEL4qJHltgPNsVJV9A+tb8QY2D2WwAC9roBsJ1QO9VXiQXUNyqSfJd9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Downloads\\People\\People\\People.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

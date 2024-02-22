@@ -1,0 +1,47 @@
+﻿<h3>Peopl</h3>
+
+@code {
+
+}
+
+
+@page "/Peopl"
+
+<PageTitle>People</PageTitle>
+
+<h1>People </h1>
+
+<ul>
+    @foreach (var Peopl in todos)
+    {
+        <li>
+            <input type="checkbox" @bind="Peopl.IsDone"/>
+            <input @bind="Peopl.Title" />
+            <button @onclick="() => RemoveTodo(Peopl)">Remove</button>
+            </li>
+    }
+</ul>
+
+<input placeholder="Something todo" @bind="newTodo"/>
+<button @onclick="AddTodo">Add todo</button>
+@* 
+<button @onclick="RemoveTodo(todo)">Remove</button>  *@
+
+ 
+@code {
+    private List<Peopleltem> todos = new();
+    private string? newTodo;
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new Peopleltem{Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
+    private void RemoveTodo(Peopleltem todo)
+    {
+        todos.Remove(todo);
+    }
+}
